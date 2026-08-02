@@ -1,0 +1,41 @@
+# Secrets and environment files
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+*.conf.secret
+secrets/
+private/
+inventory.private.*
+*.private.env
+*.local
+
+# Application state and databases
+jellyfin-data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups, archives, and media
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.zst
+*.iso
+*.img
+media/
+
+# Local/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Security tooling output
+.secrets.baseline
+gitleaks-report.*

@@ -1,0 +1,15 @@
+# Sanitized example. Export the live config with: pct config SAMBA_CTID
+arch: amd64
+cores: 1
+features: nesting=1
+hostname: samba
+memory: 512
+mp0: /data,mp=/mnt/data
+net0: name=eth0,bridge=BRIDGE_NAME,firewall=1,gw=GATEWAY_IP,ip=SAMBA_IP/LAN_PREFIX,ip6=manual,type=veth
+onboot: 1
+ostype: debian
+rootfs: local-lvm:vm-SAMBA_CTID-disk-0,size=4G
+startup: order=1,up=20,down=30
+swap: 512
+unprivileged: 1
+

@@ -1,0 +1,11 @@
+# Add this share to /etc/samba/smb.conf inside CT SAMBA_CTID.
+# Authentication is required; no passwords are stored in this file.
+
+[data]
+   path = /mnt/data
+   browsable = yes
+   read only = no
+   guest ok = no
+   create mask = 0664
+   directory mask = 0775
+
