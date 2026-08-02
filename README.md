@@ -55,10 +55,7 @@ read media through Samba.
 - [Storage and ZFS](docs/storage.md)
 - [Samba](docs/samba.md)
 - [Jellyfin](docs/jellyfin.md)
-- [Networking](docs/networking.md)
-- [Operations and backups](docs/operations.md)
 - [Troubleshooting](docs/troubleshooting.md)
-- [Public-repository checklist](docs/publication-checklist.md)
 - [Security policy](SECURITY.md)
 
 ## Repository safety
